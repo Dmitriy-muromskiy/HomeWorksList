@@ -10,11 +10,9 @@ public class Employee {
         this.firstName = firstName;
         this.lastName = lastName;
     }
-
     public String getFirstName() {
         return firstName;
     }
-
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
@@ -25,6 +23,10 @@ public class Employee {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getFullName(){
+         return  firstName + " " + lastName;
     }
 
     @Override
